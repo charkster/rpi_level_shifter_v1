@@ -11,4 +11,6 @@ Each board needs to have the top-left pin of J1 connected to the 3.3V RPi header
 
 Check-out my **PDF** [schematic](https://github.com/charkster/rpi_level_shifter_v1/blob/main/rpi_8x2_v1.pdf) !!
 
+Check-out the CSV [**Bill of Materials**](https://github.com/charkster/rpi_level_shifter_v1/blob/main/rpi_8x2_v1_BOM.csv) !!
+
 **The J3 connector must only have one horizontal jumper!! Either HV_EN or LV_EN, or damage to the RPi pins may occur (you have been warned). Additionally, the J4 connector must only have one horizontal jumper!! The RPI_5V is only available if the level shifter board is at the top of the header, otherwise you will need to jumper wire the 5V.**
