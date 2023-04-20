@@ -1,0 +1,43 @@
+Source:,rpi_8x2_v1.kicad_sch,,,,,
+Date:,Wed 19 Apr 2023 10:41:58 PM MST,,,,,
+Tool:,Eeschema 6.0.2+dfsg-1,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,18,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,C1,100pF,Device:C,Resistor_SMD:R_0603_1608Metric,~
+,,C2,100pF,Device:C,Resistor_SMD:R_0603_1608Metric,~
+,,C3,10uF,Device:C,Resistor_SMD:R_0603_1608Metric,~
+,,C4,10uF,Device:C,Resistor_SMD:R_0603_1608Metric,~
+,,J1,Conn_02x08_Odd_Even,Connector_Generic:Conn_02x08_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,~
+,,J2,Conn_02x08_Odd_Even,Connector_Generic:Conn_02x08_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,~
+,,J3,Conn_02x02_Odd_Even,Connector_Generic:Conn_02x02_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,~
+,,J4,Conn_02x03_Odd_Even,Connector_Generic:Conn_02x03_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,~
+,,R1,200k,Device:R,Capacitor_SMD:C_0603_1608Metric,~
+,,R2,200k,Device:R,Capacitor_SMD:C_0603_1608Metric,~
+,,RN1,4606X-101-102LF,Device:R_Network05,Resistor_THT:R_Array_SIP6,https://www.mouser.com/datasheet/2/54/4600x-776645.pdf
+,,RN2,4606X-101-102LF,Device:R_Network05,Resistor_THT:R_Array_SIP6,https://www.mouser.com/datasheet/2/54/4600x-776645.pdf
+,,RN3,4606X-101-102LF,Device:R_Network05,Resistor_THT:R_Array_SIP6,https://www.mouser.com/datasheet/2/54/4600x-776645.pdf
+,,RN4,4606X-101-102LF,Device:R_Network05,Resistor_THT:R_Array_SIP6,https://www.mouser.com/datasheet/2/54/4600x-776645.pdf
+,,U1,NVT2010PW,rpi_8x2_v1:NVT2010PW,Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm,https://www.nxp.com/docs/en/data-sheet/NVT2008_NVT2010.pdf
+,,U2,AP2112K-1.8,Regulator_Linear:AP2112K-1.8,Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/assets/Datasheets/AP2112.pdf
+,,U3,AP2112K-1.2,Regulator_Linear:AP2112K-1.2,Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/assets/Datasheets/AP2112.pdf
+,,U4,NVT2010PW,rpi_8x2_v1:NVT2010PW,Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm,https://www.nxp.com/docs/en/data-sheet/NVT2008_NVT2010.pdf
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,2,"C1, C2",100pF,Device:C,Resistor_SMD:R_0603_1608Metric,~
+2,2,"C3, C4",10uF,Device:C,Resistor_SMD:R_0603_1608Metric,~
+3,2,"J1, J2",Conn_02x08_Odd_Even,Connector_Generic:Conn_02x08_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,~
+4,1,J3,Conn_02x02_Odd_Even,Connector_Generic:Conn_02x02_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,~
+5,1,J4,Conn_02x03_Odd_Even,Connector_Generic:Conn_02x03_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,~
+6,2,"R1, R2",200k,Device:R,Capacitor_SMD:C_0603_1608Metric,~
+7,4,"RN1, RN2, RN3, RN4",4606X-101-102LF,Device:R_Network05,Resistor_THT:R_Array_SIP6,https://www.mouser.com/datasheet/2/54/4600x-776645.pdf
+8,2,"U1, U4",NVT2010PW,rpi_8x2_v1:NVT2010PW,Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm,https://www.nxp.com/docs/en/data-sheet/NVT2008_NVT2010.pdf
+9,1,U2,AP2112K-1.8,Regulator_Linear:AP2112K-1.8,Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/assets/Datasheets/AP2112.pdf
+10,1,U3,AP2112K-1.2,Regulator_Linear:AP2112K-1.2,Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/assets/Datasheets/AP2112.pdf
