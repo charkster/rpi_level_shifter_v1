@@ -14,3 +14,9 @@ Check-out my **PDF** [schematic](https://github.com/charkster/rpi_level_shifter_
 Check-out the CSV [**Bill of Materials**](https://github.com/charkster/rpi_level_shifter_v1/blob/main/rpi_8x2_v1_BOM.csv) !!
 
 **The J3 connector must only have one horizontal jumper!! Either HV_EN or LV_EN, or damage to the RPi pins may occur (you have been warned). Additionally, the J4 connector must only have one horizontal jumper!! The RPI_5V is only available if the level shifter board is at the top of the header, otherwise you will need to jumper wire the 5V to the VEXT pin.**
+
+
+**UPDATES:**
+SPI at 5V is working well to 10MHz with the 1k Ohm pull-up resistors. The matches nicely with the NVT2010PW datasheet. To get to 15MHz I am thinking 500 Ohm resistor networks would be needed. I will solder an extra resistor network in parallel (on the back side of the board) and see if I can reach 15MHz. I have a 1.2V SPI part coming soon, and I will benchmark that when it arrives. 
+
+![picture](https://github.com/charkster/rpi_level_shifter_v1/blob/main/rpi_level_shifter_photo_1.png) 
