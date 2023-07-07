@@ -17,6 +17,6 @@ Check-out the CSV [**Bill of Materials**](https://github.com/charkster/rpi_level
 
 
 **UPDATES:**
-SPI at 5V is working well to 10MHz with the 1k Ohm pull-up resistors. The matches nicely with the NVT2010PW datasheet. I lowered the pull-up resistors to 500 Ohm and was able to get SPI working at 12MHz. I was not able to run faster than 12MHz at 5V. Power consumption was about 0.5W for both the 0.5k and 1k pull-up resistors.
+SPI at 5V is working well to 10MHz with the 1k Ohm pull-up resistors. This matches nicely with the NVT2010PW datasheet. I lowered the pull-up resistors to 500 Ohm and was able to get SPI working at 12MHz. I was not able to run faster than 12MHz at 5V. Power consumption was about 0.5W for both the 0.5k and 1k pull-up resistors.
 
 ![picture](https://github.com/charkster/rpi_level_shifter_v1/blob/main/rpi_level_shifter_photo_1.png) 
